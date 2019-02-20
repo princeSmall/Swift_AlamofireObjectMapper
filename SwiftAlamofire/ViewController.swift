@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let urlString = "http://58.211.36.116:8081/apph5/goods/hot-question"
+        let urlString = "http://58.211.36.116:8081/apph5/goods/hot-" //测试地址不可用
         //        是否有参数: 没有只写urlString，有如下添加parameters：parameters
         let parameters: Dictionary = ["foo": "bar"]
         
